@@ -1,0 +1,38 @@
+name: kashmir_reels_app
+description: "Professional Kashmir Reels App with Music Engine & Blue Tick Logic"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  
+  # Firebase Core & Database
+  firebase_core: ^2.27.0
+  firebase_auth: ^4.17.8
+  cloud_firestore: ^4.15.8
+  firebase_storage: ^11.6.9
+  
+  # Video, Camera & Audio Engine
+  video_player: ^2.8.2
+  chewie: ^1.7.4
+  camera: ^0.10.5+9
+  audioplayers: ^6.0.0
+  image_picker: ^1.0.7
+  
+  # UI & Helpers
+  intl_phone_field: ^3.2.0
+  google_fonts: ^6.1.0
+  cached_network_image: ^3.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
